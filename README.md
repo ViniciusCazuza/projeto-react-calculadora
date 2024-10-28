@@ -1,3 +1,76 @@
+
+# Calculadora em React
+
+Este é um projeto de uma calculadora desenvolvida com **React**. A calculadora permite realizar operações matemáticas básicas: soma, subtração, multiplicação e divisão.
+
+## 📋 Funcionalidades
+
+- Realizar operações de adição, subtração, multiplicação e divisão
+- Limpar o visor (botão 'C')
+- Inserir números e pontos decimais
+- Utilizar operações consecutivas com resultado atualizado
+
+## 🚀 Começando
+
+Estas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para desenvolvimento e testes.
+
+### 📦 Instalação
+
+1. Clone o repositório para sua máquina local:
+    ```bash
+    git clone <URL_DO_REPOSITORIO>
+    ```
+
+2. Acesse o diretório do projeto:
+    ```bash
+    cd calculadora
+    ```
+
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+
+4. Execute o projeto:
+    ```bash
+    npm start
+    ```
+
+O projeto estará disponível no endereço `http://localhost:3000`.
+
+## 🛠️ Estrutura do Projeto
+
+- **src/App.js**: Componente principal que contém a lógica de cálculo e renderização dos botões e visor.
+- **src/components/Button**: Componente do botão, responsável por exibir os botões numéricos e de operações.
+- **src/components/Input**: Componente do visor da calculadora.
+- **src/styles.js**: Estilização dos componentes usando `styled-components`.
+- **src/global.js**: Define estilos globais para a aplicação.
+
+### 📂 Componentes
+
+#### Button
+
+Responsável por exibir um botão de número ou operação.
+
+#### Input
+
+Responsável pelo visor da calculadora que exibe o valor atual.
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React** - Biblioteca principal para a criação da interface.
+- **Styled-components** - Biblioteca para estilização dos componentes React.
+
+## ✒️ Autor
+
+- **Vinicius Cazuza** - Desenvolvedor do projeto
+
+Sinta-se à vontade para contribuir, enviar sugestões e explorar o código!
+
+
+##
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
